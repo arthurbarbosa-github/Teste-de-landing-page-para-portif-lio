@@ -22,25 +22,8 @@ body {
     padding: 21px;
 }
 
-@media screen and (max-width: 736px) {
-    .cabecalho {
-    background-color: #d0d6d8;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 21px;
-}
-}
-
 .cabecalho-logo {
     height: 120px;
-}
-
-@media screen and (max-width: 736px) {
-    .cabecalho-logo {
-        height: 70px;
-    }
 }
 
 .cabecalho-menu {
@@ -48,25 +31,10 @@ body {
     gap: 147px;
 }
 
-@media screen and (max-width: 736px) {
-    .cabecalho-menu {
-        display: flex;
-        gap: 24px;
-    }
-}
-
 .cabecalho-menu-escrito {
     font-family: 'Sarala', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 17px;
-}
-
-@media screen and (max-width: 736px) {
-    .cabecalho-menu-escrito {
-        font-family: 'Sarala', sans-serif;
-        color: rgb(0, 0, 0);
-        font-size: 14px;
-    }
 }
 
 /*Conteudo principal*/
@@ -80,18 +48,6 @@ body {
     padding: 21px;
 }
 
-@media screen and (max-width: 736px) {
-    .conteudo {
-        margin-bottom: 502px;
-        border-top: 5px solid #000000b2;
-        border-bottom: 42px;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        padding: 21px;
-    }
-}
-
 .conteudo-img {
     margin-left: 692px;
     margin-top: 78px;
@@ -99,15 +55,6 @@ body {
     height: 474px;
 }
 
-@media screen and (max-width: 736px) {
-    .conteudo-img {
-        margin-top: 200px;
-        margin-left: 69px;
-        width: 335px;
-        height: 257px;
-    }
-    
-}
 
 .conteudo-apresentacao {
     font-family: 'Roboto Mono', monospace;
@@ -121,20 +68,6 @@ body {
     font-size: 36px;
     line-height: 47px;
     color: #000000;
-}
-
-@media screen and (max-width: 736px) {
-    .conteudo-apresentacao {
-        text-align: justify;
-        position: absolute;
-        width: 372px;
-        height: 36px;
-        margin-bottom: 400px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 26px;
-        line-height: 47px;
-    }
 }
 
 .conteudo-informacoes {
@@ -151,20 +84,6 @@ body {
     color: rgba(0, 0, 0, 0.79);
 }
 
-@media screen and (max-width: 736px) {
-    .conteudo-informacoes {
-        display: flex;
-        margin-left: 12px;
-        margin-top: 852px;
-        width: 350px;
-        height: 315px;
-        font-weight: 875;
-        font-size: 18px;
-        line-height: 59px;
-        text-align: justify;
-    }
-}
-
 /* Rodapé */
 
 .rodape {
@@ -174,15 +93,6 @@ body {
     background-color: #C4C4C4;
 }
 
-@media screen and (max-width: 736px) {
-    .rodape {
-    border-top: 25px solid rgba(0, 0, 0, 0.562);
-    padding-left: 10px;
-    padding-block-end: 258px;
-    background-color: #C4C4C4;
-}
-}
-
 .rodape-agredecimento {
     padding-top: 57px;
     display: flex;
@@ -190,17 +100,6 @@ body {
     font-size: 36px;
     line-height: 47px;
     color: #000000;
-}
-
-@media screen and (max-width: 736px) {
-    .rodape-agredecimento {
-        padding-top: 9px;
-        display: flex;
-        font-family: Roboto Mono;
-        font-size: 22px;
-        line-height: 47px;
-        color: #000000;
-    }
 }
 
 .rodape-mail {
@@ -215,7 +114,90 @@ body {
     color: #000000;
 }
 
+
+/*Reponsivo iPhone 7/8 plus */
 @media screen and (max-width: 736px) {
+    .cabecalho {
+        background-color: #d0d6d8;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 21px;
+    }
+
+    .cabecalho-logo {
+        height: 70px;
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        gap: 24px;
+    }
+
+    .cabecalho-menu-escrito {
+        font-family: 'Sarala', sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+    }
+
+    .conteudo {
+        margin-bottom: 502px;
+        border-top: 5px solid #000000b2;
+        border-bottom: 42px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 21px;
+    }
+
+    .conteudo-img {
+        margin-top: 200px;
+        margin-left: 69px;
+        width: 335px;
+        height: 257px;
+    }
+
+    .conteudo-apresentacao {
+        text-align: justify;
+        position: absolute;
+        width: 372px;
+        height: 36px;
+        margin-bottom: 400px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 47px;
+    }
+
+    .conteudo-informacoes {
+        display: flex;
+        margin-left: 12px;
+        margin-top: 852px;
+        width: 350px;
+        height: 315px;
+        font-weight: 875;
+        font-size: 18px;
+        line-height: 59px;
+        text-align: justify;
+    }
+
+    .rodape {
+        border-top: 25px solid rgba(0, 0, 0, 0.562);
+        padding-left: 10px;
+        padding-block-end: 258px;
+        background-color: #C4C4C4;
+    }
+
+    .rodape-agredecimento {
+        padding-top: 9px;
+        display: flex;
+        font-family: Roboto Mono;
+        font-size: 22px;
+        line-height: 47px;
+        color: #000000;
+    }
+
     .rodape-mail {
         position: absolute;
         width: 444px;
