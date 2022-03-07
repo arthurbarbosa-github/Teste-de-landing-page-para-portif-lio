@@ -115,7 +115,7 @@ body {
 }
 
 
-/*Reponsivo iPhone 7/8 plus */
+/*Reponsivo iPhone 6/7/8 plus / 414x736 */
 @media screen and (max-width: 736px) {
     .cabecalho {
         background-color: #d0d6d8;
@@ -185,7 +185,7 @@ body {
     .rodape {
         border-top: 25px solid rgba(0, 0, 0, 0.562);
         padding-left: 10px;
-        padding-block-end: 258px;
+        padding-block-end: 221px;
         background-color: #C4C4C4;
     }
 
